@@ -22,3 +22,9 @@ variable "cidr_private2" {
 variable "region" {
   type = string
 }
+variable "AZ1" {
+  type = string
+}
+variable "AZ2" {
+  type = string
+}

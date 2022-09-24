@@ -6,4 +6,6 @@ module "network" {
   cidr_private1 = var.cidr_private1
   cidr_private2 = var.cidr_private2
   region        = var.region
+  AZ1=var.AZ1
+  AZ2=var.AZ2
 }
